@@ -4,7 +4,7 @@ Vizkit::UiLoader::extend_cplusplus_widget_class "ClassName" do
   #test method
   #you can delete it 
   def ruby_method()
-    setText("bla")
+    setText("Hello Rock")
   end
 
 #callback function to display a sample
