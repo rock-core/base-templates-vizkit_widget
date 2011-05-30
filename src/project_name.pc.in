@@ -5,7 +5,7 @@ includedir=${prefix}/include
 
 Name: project_name
 Description: vizKit widget for the projectname library
-Depends: @project_name_PKGCONFIG_DEPS@
+Requires: @PKGCONFIG_DEPS@
 Version: @PROJECT_VERSION@
 Libs: -L${libdir} -lproject_name
 Cflags: -I${includedir}
